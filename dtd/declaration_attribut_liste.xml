@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE getiteasy[
+    <!ELEMENT getiteasy (formation)*>
+    <!ELEMENT formation (#PCDATA)>
+    <!ATTLIST formation
+        lang (fr | en) #IMPLIED
+        site CDATA #FIXED "test.fr"
+    >
+]>
+
+<getiteasy>
+    <formation site="test.fr">Java</formation>
+    <formation>Linux</formation>
+    <formation lang="en">HTML et CSS</formation>
+</getiteasy>

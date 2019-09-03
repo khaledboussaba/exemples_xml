@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE getiteasy[
+    <!ELEMENT getiteasy (formation)+>
+    <!ELEMENT formation (#PCDATA)>
+    <!ATTLIST formation nom CDATA #FIXED "xml">
+]>
+<!-- La vaeur de l'attribut nom est FIXE, on ne peut pas la changée-->
+<getiteasy>
+    <formation nom="xml"></formation>
+    <!-- equivalent -->
+    <formation></formation>
+</getiteasy>

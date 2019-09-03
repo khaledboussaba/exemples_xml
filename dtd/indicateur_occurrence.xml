@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE getiteasy [
+    <!ELEMENT getiteasy (formation)>
+    <!ELEMENT formation (titre*, formateur+, ajout?)>
+    <!ELEMENT titre (#PCDATA)>
+    <!ELEMENT formateur (#PCDATA)>
+    <!ELEMENT ajout EMPTY>
+]>
+<!-- *(0,n)     +(1,n)      ?(0,1) -->
+<getiteasy>
+    <formation>
+        <!-- *(0,n) -->
+        <titre></titre>
+        <titre></titre>
+        <!-- *(1,n) -->
+        <formateur></formateur>
+        <!-- ?(0,1) -->
+        <ajout/>
+    </formation>
+</getiteasy>

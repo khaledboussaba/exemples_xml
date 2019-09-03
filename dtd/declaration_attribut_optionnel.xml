@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE getiteasy[
+    <!ELEMENT getiteasy (formation)+>
+    <!ELEMENT formation (#PCDATA)>
+    <!ATTLIST formation lang CDATA #IMPLIED >
+]>
+<!-- La vaeur de l'attribut lang : chaine de caractères -->
+<getiteasy>
+    <formation lang="chaine de caractères"></formation>
+    <formation lang="fr"></formation>
+    <formation lang="en"></formation>
+</getiteasy>

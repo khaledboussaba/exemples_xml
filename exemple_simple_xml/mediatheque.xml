@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediateque>
+    <media>
+        <type>CD</type>
+        <titre>Formation XML</titre>
+        <annee>2019</annee>
+        <id>1</id>
+        <auteurs>Khaled BOUSSABA</auteurs>
+    </media>
+    <media>
+        <type>Livre</type>
+        <titre>Apprendre le langage XML</titre>
+        <annee>2017</annee>
+        <id>2</id>
+        <auteurs>
+            <auteur>Jack Black</auteur>
+            <auteur>Rocky Dan</auteur>
+        </auteurs>
+    </media>
+</mediateque>

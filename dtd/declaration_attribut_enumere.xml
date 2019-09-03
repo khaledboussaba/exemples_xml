@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE getiteasy[
+    <!ELEMENT getiteasy (formation)*>
+    <!ELEMENT formation (#PCDATA)>
+    <!ATTLIST formation cat (Web | Application | System) "Web">
+]>
+
+<getiteasy>
+    <formation cat="Application">Java</formation>
+    <formation cat="System">Linux</formation>
+    <formation>HTML et CSS</formation> <!-- valeur par defaut -->
+</getiteasy>

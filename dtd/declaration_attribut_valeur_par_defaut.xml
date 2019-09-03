@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE getiteasy[
+    <!ELEMENT getiteasy (formation)+>
+    <!ELEMENT formation (#PCDATA)>
+    <!ATTLIST formation lang CDATA "fr">
+]>
+<getiteasy>
+    <formation></formation>
+    <!-- equivalent à  -->
+    <formation lang="fr"></formation>
+    <!-- mais pas équivalent à -->
+    <formation lang="en"></formation>
+</getiteasy>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE getiteasy[
+    <!ELEMENT getiteasy (auteurs)*>
+    <!ELEMENT auteurs (#PCDATA | auteur)*>
+    <!ELEMENT auteur (#PCDATA)>
+]>
+<getiteasy>
+    <!-- 1ere utilisation -->
+    <auteurs>Test</auteurs>
+    <!-- 2eme utilisation -->
+    <auteurs>
+        <auteur>T</auteur>
+        <auteur>E</auteur>
+    </auteurs>
+</getiteasy>

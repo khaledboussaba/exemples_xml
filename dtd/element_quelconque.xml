@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE getiteasy[
+    <!ELEMENT getiteasy (doc)>
+    <!ELEMENT doc ANY>
+    <!ELEMENT i (#PCDATA)>
+]>
+<!-- ANY: mot clé qui indique que tous les éléments sont autorisés (déconseillé) -->
+<getiteasy>
+    <doc>Ceci est une <i>documentation</i> très simple</doc>
+</getiteasy>

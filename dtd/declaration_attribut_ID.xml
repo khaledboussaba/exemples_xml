@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE getiteasy[
+    <!ELEMENT getiteasy (formation)*>
+    <!ELEMENT formation (#PCDATA)>
+    <!ATTLIST formation code ID #IMPLIED>
+]>
+
+<getiteasy>
+    <formation code="a">XML</formation>
+    <formation code="b">HTML</formation>
+    <formation code="c">CSS</formation>
+</getiteasy>

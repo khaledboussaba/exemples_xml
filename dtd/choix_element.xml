@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE getiteasy [
+    <!ELEMENT getiteasy (formation)>
+    <!ELEMENT formation (titre | formateur | ajout)>
+    <!ELEMENT titre (#PCDATA)>
+    <!ELEMENT formateur (#PCDATA)>
+    <!ELEMENT ajout EMPTY>
+]>
+<getiteasy>
+    <formation>
+        <formateur>Me</formateur>
+    </formation>
+</getiteasy>
