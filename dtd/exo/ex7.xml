@@ -4,4 +4,8 @@
     &entite2;
     <!--equivalent à-->
     <elt.enfant>TEST</elt.enfant>
+    
+    
+    <elt.enfant>La valeur d'entite est : &entite3;</elt.enfant>
+    
 </elt.racine>

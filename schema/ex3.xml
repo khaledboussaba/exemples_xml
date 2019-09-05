@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliographie xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="ex3.xsd">
+    <article>
+        <titre/>
+        <auteur></auteur>
+        <infoPublication>
+            <anneePublication>2000</anneePublication>
+            <numeroJournal>12</numeroJournal>
+            <numeroPage>1à2</numeroPage>
+        </infoPublication>
+    </article>
+    <livre>
+        <titre/>
+        <auteur></auteur>
+        <tomes>
+            <tome nbPages="100"/>
+        </tomes>
+        <infoEdition>
+            <editeur></editeur>
+            <lieuEdition></lieuEdition>
+            <lieuImpression></lieuImpression>
+            <ISBN>1230987629</ISBN>
+        </infoEdition>
+    </livre>
+</bibliographie>

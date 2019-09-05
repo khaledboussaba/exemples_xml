@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliographie xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="ex1.xsd">
+    <livre>
+        <titre></titre>
+        <auteur></auteur>
+        <tomes>
+            <tome></tome>
+            <nbPage></nbPage>
+            <tome></tome>
+            <nbPage></nbPage>
+        </tomes>
+        <infoEdition>
+            <editeur></editeur>
+            <lieuEdition></lieuEdition>
+            <lieuImpression></lieuImpression>
+            <ISBN></ISBN>
+        </infoEdition>
+        <avis></avis>
+    </livre>
+    <article>
+        <titre>Programmer en Java</titre>
+        <auteur>Auteur1</auteur>
+        <infoPublication>
+            <nomJournal></nomJournal>
+            <anneePublication></anneePublication>
+            <numeroJournal></numeroJournal>
+            <numeroPage></numeroPage>
+        </infoPublication>
+        <avis></avis>
+    </article>
+</bibliographie>
