@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cdtheque SYSTEM "ex4.dtd">
+<cdtheque date="01/01/2019" propietaire="prop">
+    <cd>
+        <titre>totodetoto</titre>
+        <artiste>toto</artiste>
+        <style>RAP</style>
+    </cd>     
+</cdtheque>

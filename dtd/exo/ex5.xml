@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etudiants SYSTEM "ex6.dtd">
+<etudiants>
+    <etudiant>
+        <coordonnee>
+            <nom>TOTO</nom>
+            <prenom>toto</prenom>
+            <age>22</age>
+        </coordonnee>
+        <formation>
+            <modules>
+                <module type="libre">
+                    <nom_module>XML</nom_module>
+                    <note>15</note>
+                </module>
+            </modules>
+        </formation>
+    </etudiant>
+    <etudiant>
+        <coordonnee>
+            <nom>TATA</nom>
+            <prenom>tata</prenom>
+            <age>24</age>
+        </coordonnee>
+        <formation>
+            <modules>
+                <module type="libre">
+                    <nom_module>HTML</nom_module>
+                    <note>15</note>
+                </module>
+            </modules>
+        </formation>
+    </etudiant>
+</etudiants>

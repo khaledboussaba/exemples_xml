@@ -1,0 +1,13 @@
+<!ELEMENT composition (auteur, date_de_creation, fleuriste?, composants) >
+<!ELEMENT auteur (#PCDATA) >
+<!ELEMENT date_de_creation (#PCDATA) >
+<!ELEMENT fleuriste (ville | lieu) >
+<!ELEMENT ville (#PCDATA) >
+<!ELEMENT lieu (#PCDATA) >
+<!ELEMENT composants (vase, fleurs) >
+<!ELEMENT vase (matiere, taille) >
+<!ELEMENT matiere (#PCDATA) >
+<!ELEMENT taille (#PCDATA) >
+<!ELEMENT fleurs (nature, item+) >
+<!ELEMENT nature (#PCDATA) >
+<!ELEMENT item (#PCDATA) >

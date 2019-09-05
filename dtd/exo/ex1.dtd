@@ -1,0 +1,4 @@
+<!ELEMENT aa (aa1,(aa2 | aa3+))>
+<!ELEMENT aa1 (#PCDATA) >
+<!ELEMENT aa2 (#PCDATA) >
+<!ELEMENT aa3 (#PCDATA) >

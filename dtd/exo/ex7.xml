@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE elt.racine SYSTEM "ex7.dtd">
+<elt.racine>
+    &entite2;
+    <!--equivalent à-->
+    <elt.enfant>TEST</elt.enfant>
+</elt.racine>

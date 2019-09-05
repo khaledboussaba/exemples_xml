@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT etudiants (etudiant+) >
+<!ELEMENT etudiant (coordonnee?, formation*) >
+<!ELEMENT coordonnee (nom, prenom, age) >
+<!ELEMENT nom (#PCDATA) >
+<!ELEMENT prenom (#PCDATA) >
+<!ELEMENT age (#PCDATA) >
+<!ELEMENT formation (modules) >
+<!ELEMENT modules (module+) >
+<!ELEMENT module (nom_module, note?) >
+<!ATTLIST module type CDATA #REQUIRED >
+<!ELEMENT nom_module (#PCDATA) >
+<!ELEMENT note (#PCDATA) >

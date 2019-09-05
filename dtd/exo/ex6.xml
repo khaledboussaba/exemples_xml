@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bibliographie SYSTEM "ex6.dtd">
+<bibliographie>
+    <livres>
+        <livre>
+            <titre></titre>
+            <auteurs>
+                <auteur></auteur>
+            </auteurs>
+            <tomes>
+                <tome nbre_page="" sous_titre=""></tome>
+            </tomes>
+            <infos>
+                <nom_editeur></nom_editeur>
+                <lieu_edition></lieu_edition>
+                <numero_ISBN></numero_ISBN>
+            </infos>
+            <avis_personnel></avis_personnel>
+        </livre>
+    </livres>
+    <articles>
+        <article>
+            <titre></titre>
+            <auteurs>
+                <auteur></auteur>
+            </auteurs>
+            <references nom_journal="">
+                <num_page></num_page>
+                <num_journal></num_journal>
+            </references>
+        </article>
+    </articles>
+</bibliographie>
